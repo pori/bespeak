@@ -11,6 +11,8 @@ npm install bespeak
 ## Usage
 
 ```js
+import request from 'bespeak' 
+
 export default async function () {
   const response = await request('pori.io')
 
@@ -19,6 +21,8 @@ export default async function () {
 ```
 
 ```js
+import request from 'bespeak' 
+
 export default async function (json) {
   const response = await request('api.likert.io/track', {
     method: 'POST'
