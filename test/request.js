@@ -1,6 +1,6 @@
 import test from 'ava'
 import nock from 'nock'
-import request from '../build'
+import request from '../'
 
 test('GET', async t => {
   const body = 'Hello, World!'
