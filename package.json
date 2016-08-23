@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/pori/bespeak#readme",
   "devDependencies": {
+    "ava": "^0.16.0",
     "coveralls": "^2.11.11",
     "nock": "^8.0.0",
     "nyc": "^8.1.0"
